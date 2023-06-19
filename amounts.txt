@@ -1,0 +1,66 @@
+'sodium': \
+    men: 2.4g
+    women: 2.4g
+'folate': \
+    men: 200μg
+    women: 200μg
+'niacin': \
+    men: 16.5mg
+    women: 13.2mg
+'pantothenic acid':\
+    men: 0
+    women: 0 
+'riboflavin': \
+    men: 1.3mg 
+    women: 1.1mg
+'thiamine': \
+    men: 1 mg
+    women 0.8 mg
+'vitamin a': \
+    men: 700 µg
+    women: 600 µg
+'vitamin b 12':
+    men: 1.5μg
+    women: 1.5μg
+'vitamin b 6':
+    men: 1.4mg
+    women: 1.2mg
+'vitamin c': 
+    men: 40mg
+    women: 40mg
+'vitamin d': 
+    men: 15μg
+    women: 15μg
+'vitamin e': 
+    men: 4mg
+    women: 3mg
+'vitamin k':
+    men: 1μg / kg
+    women: 1μg / kg
+'calcium': 
+    men: 700mg
+    women: 700mg
+'copper': 
+    men: 1.2mg
+    women: 1.2mg
+'iron': 
+    men: 8.7mg
+    women: 14.8mg
+'magnesium':
+    men: 300mg
+    women: 270mg
+'manganese':
+    men: 0
+    women:0 
+'phosphorus':
+    men: 550mg
+    women: 550mg
+'potassium':
+    men: 3500mg
+    women: 3500mg
+'selenium':
+    men: 75μg
+    women: 60μg
+'zinc': 
+    men: 9.5mg
+    women: 7mg
