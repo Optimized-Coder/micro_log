@@ -30,7 +30,25 @@ def register():
 
 @auth.route('/create-profile/', methods=['GET', 'POST'])
 def create_profile():
-    return "create profile"
+    if request.method == 'POST':
+        name = request.form.get('name')
+        height_cm = request.form.get('height_cm')
+        weight_kg = request.form.get('weight_kg')
+        date_of_birth = request.form.get('date_of_birth')
+        gender = request.form.get('gender')
+
+        user = current_user
+
+        user.name = name
+        user.height_cm = height_cm
+        user.weight_kg = weight_kg
+        user.date_of_birth = date_of_birth
+        user.gender = gender
+
+        db.session.commit()
+        return f"User: {user.name} created"
+    return "create_profile"
+
 
 
 @auth.route('/login/', methods=['GET', 'POST'])
