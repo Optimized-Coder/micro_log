@@ -19,10 +19,10 @@
 'vitamin a': \
     men: 700 µg
     women: 600 µg
-'vitamin b 12':
+'vitamin b 12': \
     men: 1.5μg
     women: 1.5μg
-'vitamin b 6':
+'vitamin b 6': \
     men: 1.4mg
     women: 1.2mg
 'vitamin c': 
@@ -31,7 +31,7 @@
 'vitamin d': 
     men: 15μg
     women: 15μg
-'vitamin e': 
+'vitamin e': \
     men: 4mg
     women: 3mg
 'vitamin k':

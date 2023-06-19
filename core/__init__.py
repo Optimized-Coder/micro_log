@@ -6,11 +6,13 @@ from .functions import add_food_from_csv
 from .extensions import db, migrate, login_manager
 from .models import Food, Micro, User, FoodLog
 
+
 def create_app():
     ''' factory function that is the main entry for the app '''
     app = Flask(__name__)
     app.config['SECRET_KEY'] = 'kdjffnvnfrv'
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'  # Replace with your database URI
+    # Replace with your database URI
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     app.config['FLASK_ADMIN_SWATCH'] = 'cerulean'
 
@@ -20,7 +22,7 @@ def create_app():
     admin = Admin(app, name='micro_app', template_mode='bootstrap3')
     login_manager.init_app(app)
 
-    # setup flask admin 
+    # setup flask admin
     admin.add_view(ModelView(Micro, db.session))
     admin.add_view(ModelView(Food, db.session))
     admin.add_view(ModelView(User, db.session))
@@ -30,7 +32,7 @@ def create_app():
     @login_manager.user_loader
     def load_user(user_id):
         return User.query.get(user_id)
-    
+
     login_manager.login_view = "auth.login"
 
     # register blueprints
@@ -46,6 +48,5 @@ def create_app():
         add_food_from_csv('./nutrition.csv')
 
         return 'Foods added successfully!'
-
 
     return app
