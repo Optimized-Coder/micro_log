@@ -10,3 +10,12 @@ class FoodLog(db.Model):
     timestamp = db.Column(db.Date, nullable=False, default=datetime.utcnow)
 
     food_item = db.relationship(Food)
+
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'user_id': self.user_id,
+            'food_id': self.food_id,
+            'quantity_g': self.quantity_g,
+            'timestamp': self.timestamp
+        }

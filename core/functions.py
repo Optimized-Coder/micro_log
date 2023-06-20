@@ -1,5 +1,6 @@
 import csv
 import re
+import datetime
 
 from flask import request, flash, redirect, url_for
 from werkzeug.security import generate_password_hash
@@ -106,3 +107,19 @@ def register_user():
         )
 
         return user
+    
+def get_date():
+    today = datetime.datetime.now()
+
+    year = today.strftime("%Y")
+    month = today.strftime("%m")
+    day = today.strftime("%d")
+
+    return year, month, day
+
+def choose_date():
+    year = request.args.get('year')
+    month = request.args.get('month')
+    day = request.args.get('day')
+
+    return year, month, day

@@ -62,9 +62,7 @@ def login():
             if check_password_hash(user.password_hash, password):
                 login_user(user)
                 flash("Logged in", "Success")
-                return redirect(url_for('auth.profile',
-                                        user_id=user.id
-                                        ))
+                return redirect(url_for('main.index'))
             else:
                 flash("Invalid Credentials!", "Error")
                 return redirect(url_for('auth.login'))
