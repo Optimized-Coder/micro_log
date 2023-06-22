@@ -17,5 +17,7 @@ class FoodLog(db.Model):
             'user_id': self.user_id,
             'food_id': self.food_id,
             'quantity_g': self.quantity_g,
-            'timestamp': self.timestamp
+            'timestamp': self.timestamp,
+            'food_name': self.food_item.name,
+            'vitamin_k_amount': f'{self.food_item.vitamin_k * (self.quantity_g / 100)}1μg'
         }

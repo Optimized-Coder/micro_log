@@ -3,10 +3,11 @@ import re
 import datetime
 
 from flask import request, flash, redirect, url_for
+from flask_login import current_user
 from werkzeug.security import generate_password_hash
 
 from .extensions import db
-from .models import Food, User
+from .models import Food, User, FoodLog
 
 
 def add_food_from_csv(file_path):
@@ -123,3 +124,16 @@ def choose_date():
     day = request.args.get('day')
 
     return year, month, day
+
+def get_logs_by_date():
+    user_id = current_user.id
+    year = request.args.get('year')
+    month = request.args.get('month')
+    day = request.args.get('day')
+    print(year, month, day)
+    logs = FoodLog.query.filter(
+        user_id == user_id and\
+              FoodLog.timestamp.like(f'{year}-{month}-{day}')
+    ).all()
+
+    return logs
