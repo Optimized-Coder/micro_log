@@ -90,4 +90,22 @@ def profile(user_id):
 
 @auth.route('/change-password/', methods=['GET', 'POST'])
 def change_password():
-    return "Change Password"
+    if request.method == 'POST':
+        old_password = request.form.get('old_password')
+        new_password = request.form.get('new_password')
+        confirm_password = request.form.get('confirm_password')
+        user = current_user
+        if check_password_hash(user.password_hash, old_password):
+            if new_password == confirm_password:
+                user.password_hash = generate_password_hash(new_password)
+                db.session.commit()
+                flash("Password Changed", "Success")
+                return 'Password Changed'
+            else:
+                flash("Passwords do not match", "Error")
+                return 'Try again'
+        else:
+            flash("Old Password is incorrect", "Error")
+            return 'Try again'
+        
+            

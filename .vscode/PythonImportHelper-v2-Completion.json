@@ -1,0 +1,1340 @@
+[
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "UserMixin",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "logout_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "LoginManager",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "hybrid_property",
+        "importPath": "sqlalchemy.ext.hybrid",
+        "description": "sqlalchemy.ext.hybrid",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.hybrid",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "abort",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "current_app",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "generate_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "check_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "generate_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Migrate",
+        "importPath": "flask_migrate",
+        "description": "flask_migrate",
+        "isExtraImport": true,
+        "detail": "flask_migrate",
+        "documentation": {}
+    },
+    {
+        "label": "Admin",
+        "importPath": "flask_admin",
+        "description": "flask_admin",
+        "isExtraImport": true,
+        "detail": "flask_admin",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "create_app",
+        "importPath": "core",
+        "description": "core",
+        "isExtraImport": true,
+        "detail": "core",
+        "documentation": {}
+    },
+    {
+        "label": "Food",
+        "kind": 6,
+        "importPath": "core.models.food",
+        "description": "core.models.food",
+        "peekOfCode": "class Food(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(100))\n    serving_size = db.Column(db.Float)\n    sodium = db.Column(db.Float)\n    folate = db.Column(db.Float)\n    folic_acid = db.Column(db.Float)\n    niacin = db.Column(db.Float)\n    pantothenic_acid = db.Column(db.Float)\n    riboflavin = db.Column(db.Float)",
+        "detail": "core.models.food",
+        "documentation": {}
+    },
+    {
+        "label": "FoodLog",
+        "kind": 6,
+        "importPath": "core.models.food_log",
+        "description": "core.models.food_log",
+        "peekOfCode": "class FoodLog(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)\n    food_id = db.Column(db.Integer, db.ForeignKey('food.id'), nullable=False)\n    quantity_g = db.Column(db.Float, nullable=False)\n    timestamp = db.Column(db.Date, nullable=False, default=datetime.utcnow)\n    food_item = db.relationship(Food)\n    def to_dict(self):\n        return {\n            'id': self.id,",
+        "detail": "core.models.food_log",
+        "documentation": {}
+    },
+    {
+        "label": "Micro",
+        "kind": 6,
+        "importPath": "core.models.micro",
+        "description": "core.models.micro",
+        "peekOfCode": "class Micro(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(100), nullable=False)\n    description = db.Column(db.String(500), nullable=False)\n    male_minimum = db.Column(db.Float)\n    female_minimum = db.Column(db.Float)\n    unit = db.Column(db.String(5))\n    def __repr__(self):\n        return f'{self.id}: {self.name}'\n    def to_dict(self):",
+        "detail": "core.models.micro",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "core.models.user",
+        "description": "core.models.user",
+        "peekOfCode": "class User(UserMixin, db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(50))\n    email = db.Column(db.String(80), nullable=False)\n    password_hash = db.Column(db.Text, nullable=False)\n    date_of_birth = db.Column(db.Date)\n    weight_kg = db.Column(db.Integer)\n    gender = db.Column(db.String(10))\n    height_cm = db.Column(db.Integer)\n    food_logs = db.relationship('FoodLog', backref='user', lazy=True)",
+        "detail": "core.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_food",
+        "kind": 2,
+        "importPath": "core.routes.api",
+        "description": "core.routes.api",
+        "peekOfCode": "def get_all_food():\n    '''\n    returns: all food items from the database and its nutrient \n    content\n    parameters: None\n    format: json\n    '''\n    all_data = Food.query.all()\n    return jsonify([data.to_dict() for data in all_data])\n@api.route('/food/<int:id>', methods=['GET'])",
+        "detail": "core.routes.api",
+        "documentation": {}
+    },
+    {
+        "label": "get_food",
+        "kind": 2,
+        "importPath": "core.routes.api",
+        "description": "core.routes.api",
+        "peekOfCode": "def get_food(id):\n    '''\n    Returns a single item of food based on id number\n    Parameters: food_id\n    Format: JSON\n    '''\n    item = Food.query.get(id)\n    if not item:\n        abort(404)\n    return jsonify(item.to_dict())",
+        "detail": "core.routes.api",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_micros",
+        "kind": 2,
+        "importPath": "core.routes.api",
+        "description": "core.routes.api",
+        "peekOfCode": "def get_all_micros():\n    '''\n    returns: all micros with info about each nutrient \n    parameters: None\n    format: json\n    '''\n    all_micros = Micro.query.all()\n    return jsonify([micro.to_dict() for micro in all_micros])\n@api.route('/get-micros/<int:id>', methods=['GET'])\ndef get_micro(id):",
+        "detail": "core.routes.api",
+        "documentation": {}
+    },
+    {
+        "label": "get_micro",
+        "kind": 2,
+        "importPath": "core.routes.api",
+        "description": "core.routes.api",
+        "peekOfCode": "def get_micro(id):\n    '''\n    Returns a single item of micro based on id number\n    Parameters: micro_id\n    Format: JSON\n    '''\n    item = Micro.query.get(id)\n    if not item:\n        abort(404)\n    return jsonify(item.to_dict())",
+        "detail": "core.routes.api",
+        "documentation": {}
+    },
+    {
+        "label": "register_user",
+        "kind": 2,
+        "importPath": "core.routes.api",
+        "description": "core.routes.api",
+        "peekOfCode": "def register_user():\n    '''\n    Registers a new user\n    Parameters: email, password\n    Format: form data\n    '''\n    user = register_user()\n    db.session.add(user)\n    db.session.commit()\n    return jsonify(user.to_dict())",
+        "detail": "core.routes.api",
+        "documentation": {}
+    },
+    {
+        "label": "api",
+        "kind": 5,
+        "importPath": "core.routes.api",
+        "description": "core.routes.api",
+        "peekOfCode": "api = Blueprint('api', __name__, url_prefix='/api')\n'''\n    GET\n'''\n@api.route('/food/', methods=['GET'])\ndef get_all_food():\n    '''\n    returns: all food items from the database and its nutrient \n    content\n    parameters: None",
+        "detail": "core.routes.api",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "core.routes.auth",
+        "description": "core.routes.auth",
+        "peekOfCode": "def register():\n    if request.method == 'POST':\n        user=register_user()\n        db.session.add(user)\n        db.session.commit()\n        return redirect(url_for('auth.create_profile'))\n    return \"register\"\n@auth.route('/create-profile/', methods=['GET', 'POST'])\ndef create_profile():\n    if request.method == 'POST':",
+        "detail": "core.routes.auth",
+        "documentation": {}
+    },
+    {
+        "label": "create_profile",
+        "kind": 2,
+        "importPath": "core.routes.auth",
+        "description": "core.routes.auth",
+        "peekOfCode": "def create_profile():\n    if request.method == 'POST':\n        name = request.form.get('name')\n        height_cm = request.form.get('height_cm')\n        weight_kg = request.form.get('weight_kg')\n        date_of_birth = request.form.get('date_of_birth')\n        gender = request.form.get('gender')\n        user = current_user\n        user.name = name\n        user.height_cm = height_cm",
+        "detail": "core.routes.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "core.routes.auth",
+        "description": "core.routes.auth",
+        "peekOfCode": "def login():\n    if request.method == 'POST':\n        email = request.form.get('email')\n        password = request.form.get('password')\n        user = User.query.filter_by(email=email).first()\n        if user:\n            if check_password_hash(user.password_hash, password):\n                login_user(user)\n                flash(\"Logged in\", \"Success\")\n                return redirect(url_for('main.index'))",
+        "detail": "core.routes.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "core.routes.auth",
+        "description": "core.routes.auth",
+        "peekOfCode": "def logout():\n    logout_user()\n    flash(\"You have been logged out.\")\n    return \"Logged Out\"\n@auth.route('/profile/<user_id>', methods=['GET'])\ndef profile(user_id):\n    context = {\n        'title': f\"{current_user.name}'s Profile Page\",\n        'user': current_user,\n    }",
+        "detail": "core.routes.auth",
+        "documentation": {}
+    },
+    {
+        "label": "profile",
+        "kind": 2,
+        "importPath": "core.routes.auth",
+        "description": "core.routes.auth",
+        "peekOfCode": "def profile(user_id):\n    context = {\n        'title': f\"{current_user.name}'s Profile Page\",\n        'user': current_user,\n    }\n    return f'Hello, {current_user.name}'\n@auth.route('/change-password/', methods=['GET', 'POST'])\ndef change_password():\n    if request.method == 'POST':\n        old_password = request.form.get('old_password')",
+        "detail": "core.routes.auth",
+        "documentation": {}
+    },
+    {
+        "label": "change_password",
+        "kind": 2,
+        "importPath": "core.routes.auth",
+        "description": "core.routes.auth",
+        "peekOfCode": "def change_password():\n    if request.method == 'POST':\n        old_password = request.form.get('old_password')\n        new_password = request.form.get('new_password')\n        confirm_password = request.form.get('confirm_password')\n        user = current_user\n        if check_password_hash(user.password_hash, old_password):\n            if new_password == confirm_password:\n                user.password_hash = generate_password_hash(new_password)\n                db.session.commit()",
+        "detail": "core.routes.auth",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "kind": 5,
+        "importPath": "core.routes.auth",
+        "description": "core.routes.auth",
+        "peekOfCode": "auth = Blueprint('auth', __name__, url_prefix='/auth')\n@auth.route('/register/', methods=['GET', 'POST'])\ndef register():\n    if request.method == 'POST':\n        user=register_user()\n        db.session.add(user)\n        db.session.commit()\n        return redirect(url_for('auth.create_profile'))\n    return \"register\"\n@auth.route('/create-profile/', methods=['GET', 'POST'])",
+        "detail": "core.routes.auth",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "core.routes.main",
+        "description": "core.routes.main",
+        "peekOfCode": "def index():\n    return f\"Hello, {current_user.name}\"\n@main.route('/add-log/', methods=['GET'])\n@login_required\ndef add_log():\n    '''\n    method: GET\n    description: searches a food query \n    returns: all foods that match the query\n      -links to post method which takes in the id",
+        "detail": "core.routes.main",
+        "documentation": {}
+    },
+    {
+        "label": "add_log",
+        "kind": 2,
+        "importPath": "core.routes.main",
+        "description": "core.routes.main",
+        "peekOfCode": "def add_log():\n    '''\n    method: GET\n    description: searches a food query \n    returns: all foods that match the query\n      -links to post method which takes in the id\n        - e.g. http://domain/add-log/id/quantity\n    '''\n    food_query = request.form.get('food_query')\n    food_results = Food.query.filter(Food.name.like(f'%{food_query}%')).all()",
+        "detail": "core.routes.main",
+        "documentation": {}
+    },
+    {
+        "label": "add_log_post",
+        "kind": 2,
+        "importPath": "core.routes.main",
+        "description": "core.routes.main",
+        "peekOfCode": "def add_log_post(food_id):\n    '''\n    method: POST\n    description: adds a food log to the database\n    parameters: food_id linked from the previous GET route\n    '''\n    user_id = current_user.id\n    food_id = food_id\n    quantity_g = request.args.get('quantity_g')\n    new_log = FoodLog(user_id=user_id, food_id=food_id, quantity_g=quantity_g)",
+        "detail": "core.routes.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_logs",
+        "kind": 2,
+        "importPath": "core.routes.main",
+        "description": "core.routes.main",
+        "peekOfCode": "def get_logs():\n    user_id = current_user.id\n    logs = FoodLog.query.filter(FoodLog.user_id == user_id).all()\n    return jsonify([log.to_dict() for log in logs])\n@main.route('/logs/<int:user_id>/today/')\n@login_required\ndef get_logs_today(user_id):\n    user_id = current_user.id\n    year, month, day = get_date()\n    print(year, month, day)",
+        "detail": "core.routes.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_logs_today",
+        "kind": 2,
+        "importPath": "core.routes.main",
+        "description": "core.routes.main",
+        "peekOfCode": "def get_logs_today(user_id):\n    user_id = current_user.id\n    year, month, day = get_date()\n    print(year, month, day)\n    logs = FoodLog.query.filter(\n        user_id == user_id and\\\n              FoodLog.timestamp.like(f'{year}-{month}-{day}')\n    ).all()\n    return jsonify([log.to_dict() for log in logs])\n@main.route('/logs/<int:user_id>/')",
+        "detail": "core.routes.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_past_logs",
+        "kind": 2,
+        "importPath": "core.routes.main",
+        "description": "core.routes.main",
+        "peekOfCode": "def get_past_logs(user_id):\n    logs = get_logs_by_date()\n    return jsonify([log.to_dict() for log in logs])",
+        "detail": "core.routes.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 5,
+        "importPath": "core.routes.main",
+        "description": "core.routes.main",
+        "peekOfCode": "main = Blueprint('main', __name__)\n@main.route('/', methods=['GET'])\n@login_required\ndef index():\n    return f\"Hello, {current_user.name}\"\n@main.route('/add-log/', methods=['GET'])\n@login_required\ndef add_log():\n    '''\n    method: GET",
+        "detail": "core.routes.main",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "core.extensions",
+        "description": "core.extensions",
+        "peekOfCode": "db = SQLAlchemy()\nmigrate = Migrate()\nadmin = Admin()\nlogin_manager = LoginManager()",
+        "detail": "core.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "migrate",
+        "kind": 5,
+        "importPath": "core.extensions",
+        "description": "core.extensions",
+        "peekOfCode": "migrate = Migrate()\nadmin = Admin()\nlogin_manager = LoginManager()",
+        "detail": "core.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "kind": 5,
+        "importPath": "core.extensions",
+        "description": "core.extensions",
+        "peekOfCode": "admin = Admin()\nlogin_manager = LoginManager()",
+        "detail": "core.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "login_manager",
+        "kind": 5,
+        "importPath": "core.extensions",
+        "description": "core.extensions",
+        "peekOfCode": "login_manager = LoginManager()",
+        "detail": "core.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "add_food_from_csv",
+        "kind": 2,
+        "importPath": "core.functions",
+        "description": "core.functions",
+        "peekOfCode": "def add_food_from_csv(file_path):\n    count = 0\n    if Food.query.count() == 0:\n        with open(file_path, 'r') as csv_file:\n            csv_reader = csv.DictReader(csv_file)\n            for row in csv_reader:\n                food = Food(\n                    name=row['name'],\n                    serving_size=float(\n                        re.sub(r'[^\\d.]+', '', row['serving_size'])) if row['serving_size'] else None,",
+        "detail": "core.functions",
+        "documentation": {}
+    },
+    {
+        "label": "register_user",
+        "kind": 2,
+        "importPath": "core.functions",
+        "description": "core.functions",
+        "peekOfCode": "def register_user():\n    email = request.form.get('email')\n    password = request.form.get('password')\n    password_check = request.form.get('password_check')\n    email_exists = bool(User.query.filter_by(email=email)\n                        .first())\n    print(email_exists)\n    if password != password_check:\n        flash(\"Passwords do not match\")\n        return redirect(url_for('auth.register'))",
+        "detail": "core.functions",
+        "documentation": {}
+    },
+    {
+        "label": "get_date",
+        "kind": 2,
+        "importPath": "core.functions",
+        "description": "core.functions",
+        "peekOfCode": "def get_date():\n    today = datetime.datetime.now()\n    year = today.strftime(\"%Y\")\n    month = today.strftime(\"%m\")\n    day = today.strftime(\"%d\")\n    return year, month, day\ndef choose_date():\n    year = request.args.get('year')\n    month = request.args.get('month')\n    day = request.args.get('day')",
+        "detail": "core.functions",
+        "documentation": {}
+    },
+    {
+        "label": "choose_date",
+        "kind": 2,
+        "importPath": "core.functions",
+        "description": "core.functions",
+        "peekOfCode": "def choose_date():\n    year = request.args.get('year')\n    month = request.args.get('month')\n    day = request.args.get('day')\n    return year, month, day\ndef get_logs_by_date():\n    user_id = current_user.id\n    year = request.args.get('year')\n    month = request.args.get('month')\n    day = request.args.get('day')",
+        "detail": "core.functions",
+        "documentation": {}
+    },
+    {
+        "label": "get_logs_by_date",
+        "kind": 2,
+        "importPath": "core.functions",
+        "description": "core.functions",
+        "peekOfCode": "def get_logs_by_date():\n    user_id = current_user.id\n    year = request.args.get('year')\n    month = request.args.get('month')\n    day = request.args.get('day')\n    print(year, month, day)\n    logs = FoodLog.query.filter(\n        user_id == user_id and\\\n              FoodLog.timestamp.like(f'{year}-{month}-{day}')\n    ).all()",
+        "detail": "core.functions",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.144851ce0c99_add_micro_schema",
+        "description": "migrations.versions.144851ce0c99_add_micro_schema",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('micro',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(length=100), nullable=False),\n    sa.Column('description', sa.String(length=200), nullable=False),\n    sa.Column('male_minimum', sa.Integer(), nullable=True),\n    sa.Column('female_minimum', sa.Integer(), nullable=True),\n    sa.PrimaryKeyConstraint('id')\n    )",
+        "detail": "migrations.versions.144851ce0c99_add_micro_schema",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.144851ce0c99_add_micro_schema",
+        "description": "migrations.versions.144851ce0c99_add_micro_schema",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('micro')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.144851ce0c99_add_micro_schema",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.144851ce0c99_add_micro_schema",
+        "description": "migrations.versions.144851ce0c99_add_micro_schema",
+        "peekOfCode": "revision = '144851ce0c99'\ndown_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('micro',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(length=100), nullable=False),\n    sa.Column('description', sa.String(length=200), nullable=False),",
+        "detail": "migrations.versions.144851ce0c99_add_micro_schema",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.144851ce0c99_add_micro_schema",
+        "description": "migrations.versions.144851ce0c99_add_micro_schema",
+        "peekOfCode": "down_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('micro',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(length=100), nullable=False),\n    sa.Column('description', sa.String(length=200), nullable=False),\n    sa.Column('male_minimum', sa.Integer(), nullable=True),",
+        "detail": "migrations.versions.144851ce0c99_add_micro_schema",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.144851ce0c99_add_micro_schema",
+        "description": "migrations.versions.144851ce0c99_add_micro_schema",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('micro',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(length=100), nullable=False),\n    sa.Column('description', sa.String(length=200), nullable=False),\n    sa.Column('male_minimum', sa.Integer(), nullable=True),\n    sa.Column('female_minimum', sa.Integer(), nullable=True),",
+        "detail": "migrations.versions.144851ce0c99_add_micro_schema",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.144851ce0c99_add_micro_schema",
+        "description": "migrations.versions.144851ce0c99_add_micro_schema",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('micro',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(length=100), nullable=False),\n    sa.Column('description', sa.String(length=200), nullable=False),\n    sa.Column('male_minimum', sa.Integer(), nullable=True),\n    sa.Column('female_minimum', sa.Integer(), nullable=True),\n    sa.PrimaryKeyConstraint('id')",
+        "detail": "migrations.versions.144851ce0c99_add_micro_schema",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.33a207465981_",
+        "description": "migrations.versions.33a207465981_",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.alter_column('male_minimum',\n               existing_type=sa.INTEGER(),\n               type_=sa.Float(),\n               existing_nullable=True)\n        batch_op.alter_column('female_minimum',\n               existing_type=sa.INTEGER(),\n               type_=sa.Float(),",
+        "detail": "migrations.versions.33a207465981_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.33a207465981_",
+        "description": "migrations.versions.33a207465981_",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.alter_column('female_minimum',\n               existing_type=sa.Float(),\n               type_=sa.INTEGER(),\n               existing_nullable=True)\n        batch_op.alter_column('male_minimum',\n               existing_type=sa.Float(),\n               type_=sa.INTEGER(),",
+        "detail": "migrations.versions.33a207465981_",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.33a207465981_",
+        "description": "migrations.versions.33a207465981_",
+        "peekOfCode": "revision = '33a207465981'\ndown_revision = '144851ce0c99'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.alter_column('male_minimum',\n               existing_type=sa.INTEGER(),\n               type_=sa.Float(),",
+        "detail": "migrations.versions.33a207465981_",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.33a207465981_",
+        "description": "migrations.versions.33a207465981_",
+        "peekOfCode": "down_revision = '144851ce0c99'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.alter_column('male_minimum',\n               existing_type=sa.INTEGER(),\n               type_=sa.Float(),\n               existing_nullable=True)",
+        "detail": "migrations.versions.33a207465981_",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.33a207465981_",
+        "description": "migrations.versions.33a207465981_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.alter_column('male_minimum',\n               existing_type=sa.INTEGER(),\n               type_=sa.Float(),\n               existing_nullable=True)\n        batch_op.alter_column('female_minimum',",
+        "detail": "migrations.versions.33a207465981_",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.33a207465981_",
+        "description": "migrations.versions.33a207465981_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.alter_column('male_minimum',\n               existing_type=sa.INTEGER(),\n               type_=sa.Float(),\n               existing_nullable=True)\n        batch_op.alter_column('female_minimum',\n               existing_type=sa.INTEGER(),",
+        "detail": "migrations.versions.33a207465981_",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.617114ec561d_",
+        "description": "migrations.versions.617114ec561d_",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.alter_column('name',\n               existing_type=sa.VARCHAR(length=300),\n               type_=sa.String(length=100),\n               existing_nullable=False)\n        batch_op.alter_column('description',\n               existing_type=sa.VARCHAR(length=200),\n               type_=sa.String(length=500),",
+        "detail": "migrations.versions.617114ec561d_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.617114ec561d_",
+        "description": "migrations.versions.617114ec561d_",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.alter_column('description',\n               existing_type=sa.String(length=500),\n               type_=sa.VARCHAR(length=200),\n               existing_nullable=False)\n        batch_op.alter_column('name',\n               existing_type=sa.String(length=100),\n               type_=sa.VARCHAR(length=300),",
+        "detail": "migrations.versions.617114ec561d_",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.617114ec561d_",
+        "description": "migrations.versions.617114ec561d_",
+        "peekOfCode": "revision = '617114ec561d'\ndown_revision = '904fd9dd1c89'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.alter_column('name',\n               existing_type=sa.VARCHAR(length=300),\n               type_=sa.String(length=100),",
+        "detail": "migrations.versions.617114ec561d_",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.617114ec561d_",
+        "description": "migrations.versions.617114ec561d_",
+        "peekOfCode": "down_revision = '904fd9dd1c89'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.alter_column('name',\n               existing_type=sa.VARCHAR(length=300),\n               type_=sa.String(length=100),\n               existing_nullable=False)",
+        "detail": "migrations.versions.617114ec561d_",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.617114ec561d_",
+        "description": "migrations.versions.617114ec561d_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.alter_column('name',\n               existing_type=sa.VARCHAR(length=300),\n               type_=sa.String(length=100),\n               existing_nullable=False)\n        batch_op.alter_column('description',",
+        "detail": "migrations.versions.617114ec561d_",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.617114ec561d_",
+        "description": "migrations.versions.617114ec561d_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.alter_column('name',\n               existing_type=sa.VARCHAR(length=300),\n               type_=sa.String(length=100),\n               existing_nullable=False)\n        batch_op.alter_column('description',\n               existing_type=sa.VARCHAR(length=200),",
+        "detail": "migrations.versions.617114ec561d_",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.6638dad9acbf_",
+        "description": "migrations.versions.6638dad9acbf_",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('unit', sa.String(length=5), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.drop_column('unit')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.6638dad9acbf_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.6638dad9acbf_",
+        "description": "migrations.versions.6638dad9acbf_",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.drop_column('unit')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.6638dad9acbf_",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.6638dad9acbf_",
+        "description": "migrations.versions.6638dad9acbf_",
+        "peekOfCode": "revision = '6638dad9acbf'\ndown_revision = '33a207465981'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('unit', sa.String(length=5), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade():",
+        "detail": "migrations.versions.6638dad9acbf_",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.6638dad9acbf_",
+        "description": "migrations.versions.6638dad9acbf_",
+        "peekOfCode": "down_revision = '33a207465981'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('unit', sa.String(length=5), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###",
+        "detail": "migrations.versions.6638dad9acbf_",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.6638dad9acbf_",
+        "description": "migrations.versions.6638dad9acbf_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('unit', sa.String(length=5), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:",
+        "detail": "migrations.versions.6638dad9acbf_",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.6638dad9acbf_",
+        "description": "migrations.versions.6638dad9acbf_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('unit', sa.String(length=5), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.drop_column('unit')",
+        "detail": "migrations.versions.6638dad9acbf_",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.904fd9dd1c89_",
+        "description": "migrations.versions.904fd9dd1c89_",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.alter_column('name',\n               existing_type=sa.VARCHAR(length=100),\n               type_=sa.String(length=300),\n               existing_nullable=False)\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###",
+        "detail": "migrations.versions.904fd9dd1c89_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.904fd9dd1c89_",
+        "description": "migrations.versions.904fd9dd1c89_",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.alter_column('name',\n               existing_type=sa.String(length=300),\n               type_=sa.VARCHAR(length=100),\n               existing_nullable=False)\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.904fd9dd1c89_",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.904fd9dd1c89_",
+        "description": "migrations.versions.904fd9dd1c89_",
+        "peekOfCode": "revision = '904fd9dd1c89'\ndown_revision = '6638dad9acbf'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.alter_column('name',\n               existing_type=sa.VARCHAR(length=100),\n               type_=sa.String(length=300),",
+        "detail": "migrations.versions.904fd9dd1c89_",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.904fd9dd1c89_",
+        "description": "migrations.versions.904fd9dd1c89_",
+        "peekOfCode": "down_revision = '6638dad9acbf'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.alter_column('name',\n               existing_type=sa.VARCHAR(length=100),\n               type_=sa.String(length=300),\n               existing_nullable=False)",
+        "detail": "migrations.versions.904fd9dd1c89_",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.904fd9dd1c89_",
+        "description": "migrations.versions.904fd9dd1c89_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.alter_column('name',\n               existing_type=sa.VARCHAR(length=100),\n               type_=sa.String(length=300),\n               existing_nullable=False)\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.904fd9dd1c89_",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.904fd9dd1c89_",
+        "description": "migrations.versions.904fd9dd1c89_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('micro', schema=None) as batch_op:\n        batch_op.alter_column('name',\n               existing_type=sa.VARCHAR(length=100),\n               type_=sa.String(length=300),\n               existing_nullable=False)\n    # ### end Alembic commands ###\ndef downgrade():",
+        "detail": "migrations.versions.904fd9dd1c89_",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.b4e1a5c443bf_add_base_user_schema",
+        "description": "migrations.versions.b4e1a5c443bf_add_base_user_schema",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('user',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(length=50), nullable=False),\n    sa.Column('email', sa.String(length=80), nullable=False),\n    sa.Column('password_hash', sa.Text(), nullable=False),\n    sa.Column('date_of_birth', sa.Date(), nullable=True),\n    sa.Column('weight_kg', sa.Integer(), nullable=True),\n    sa.Column('gender', sa.String(length=10), nullable=True),",
+        "detail": "migrations.versions.b4e1a5c443bf_add_base_user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.b4e1a5c443bf_add_base_user_schema",
+        "description": "migrations.versions.b4e1a5c443bf_add_base_user_schema",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('user')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.b4e1a5c443bf_add_base_user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.b4e1a5c443bf_add_base_user_schema",
+        "description": "migrations.versions.b4e1a5c443bf_add_base_user_schema",
+        "peekOfCode": "revision = 'b4e1a5c443bf'\ndown_revision = '617114ec561d'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('user',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(length=50), nullable=False),\n    sa.Column('email', sa.String(length=80), nullable=False),",
+        "detail": "migrations.versions.b4e1a5c443bf_add_base_user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.b4e1a5c443bf_add_base_user_schema",
+        "description": "migrations.versions.b4e1a5c443bf_add_base_user_schema",
+        "peekOfCode": "down_revision = '617114ec561d'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('user',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(length=50), nullable=False),\n    sa.Column('email', sa.String(length=80), nullable=False),\n    sa.Column('password_hash', sa.Text(), nullable=False),",
+        "detail": "migrations.versions.b4e1a5c443bf_add_base_user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.b4e1a5c443bf_add_base_user_schema",
+        "description": "migrations.versions.b4e1a5c443bf_add_base_user_schema",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('user',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(length=50), nullable=False),\n    sa.Column('email', sa.String(length=80), nullable=False),\n    sa.Column('password_hash', sa.Text(), nullable=False),\n    sa.Column('date_of_birth', sa.Date(), nullable=True),",
+        "detail": "migrations.versions.b4e1a5c443bf_add_base_user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.b4e1a5c443bf_add_base_user_schema",
+        "description": "migrations.versions.b4e1a5c443bf_add_base_user_schema",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('user',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(length=50), nullable=False),\n    sa.Column('email', sa.String(length=80), nullable=False),\n    sa.Column('password_hash', sa.Text(), nullable=False),\n    sa.Column('date_of_birth', sa.Date(), nullable=True),\n    sa.Column('weight_kg', sa.Integer(), nullable=True),",
+        "detail": "migrations.versions.b4e1a5c443bf_add_base_user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.c848e980632f_",
+        "description": "migrations.versions.c848e980632f_",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.alter_column('name',\n               existing_type=sa.VARCHAR(length=50),\n               nullable=True)\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:",
+        "detail": "migrations.versions.c848e980632f_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.c848e980632f_",
+        "description": "migrations.versions.c848e980632f_",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.alter_column('name',\n               existing_type=sa.VARCHAR(length=50),\n               nullable=False)\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.c848e980632f_",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.c848e980632f_",
+        "description": "migrations.versions.c848e980632f_",
+        "peekOfCode": "revision = 'c848e980632f'\ndown_revision = 'cc7d27d7ea3f'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.alter_column('name',\n               existing_type=sa.VARCHAR(length=50),\n               nullable=True)",
+        "detail": "migrations.versions.c848e980632f_",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.c848e980632f_",
+        "description": "migrations.versions.c848e980632f_",
+        "peekOfCode": "down_revision = 'cc7d27d7ea3f'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.alter_column('name',\n               existing_type=sa.VARCHAR(length=50),\n               nullable=True)\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.c848e980632f_",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.c848e980632f_",
+        "description": "migrations.versions.c848e980632f_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.alter_column('name',\n               existing_type=sa.VARCHAR(length=50),\n               nullable=True)\n    # ### end Alembic commands ###\ndef downgrade():",
+        "detail": "migrations.versions.c848e980632f_",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.c848e980632f_",
+        "description": "migrations.versions.c848e980632f_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.alter_column('name',\n               existing_type=sa.VARCHAR(length=50),\n               nullable=True)\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###",
+        "detail": "migrations.versions.c848e980632f_",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.cc7d27d7ea3f_foodlog",
+        "description": "migrations.versions.cc7d27d7ea3f_foodlog",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('food_log',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('user_id', sa.Integer(), nullable=False),\n    sa.Column('food_id', sa.Integer(), nullable=False),\n    sa.Column('quantity_g', sa.Float(), nullable=False),\n    sa.Column('timestamp', sa.Date(), nullable=False),\n    sa.ForeignKeyConstraint(['food_id'], ['food.id'], ),\n    sa.ForeignKeyConstraint(['user_id'], ['user.id'], ),",
+        "detail": "migrations.versions.cc7d27d7ea3f_foodlog",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.cc7d27d7ea3f_foodlog",
+        "description": "migrations.versions.cc7d27d7ea3f_foodlog",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('food_log')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.cc7d27d7ea3f_foodlog",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.cc7d27d7ea3f_foodlog",
+        "description": "migrations.versions.cc7d27d7ea3f_foodlog",
+        "peekOfCode": "revision = 'cc7d27d7ea3f'\ndown_revision = 'db0fafeeb3d4'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('food_log',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('user_id', sa.Integer(), nullable=False),\n    sa.Column('food_id', sa.Integer(), nullable=False),",
+        "detail": "migrations.versions.cc7d27d7ea3f_foodlog",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.cc7d27d7ea3f_foodlog",
+        "description": "migrations.versions.cc7d27d7ea3f_foodlog",
+        "peekOfCode": "down_revision = 'db0fafeeb3d4'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('food_log',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('user_id', sa.Integer(), nullable=False),\n    sa.Column('food_id', sa.Integer(), nullable=False),\n    sa.Column('quantity_g', sa.Float(), nullable=False),",
+        "detail": "migrations.versions.cc7d27d7ea3f_foodlog",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.cc7d27d7ea3f_foodlog",
+        "description": "migrations.versions.cc7d27d7ea3f_foodlog",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('food_log',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('user_id', sa.Integer(), nullable=False),\n    sa.Column('food_id', sa.Integer(), nullable=False),\n    sa.Column('quantity_g', sa.Float(), nullable=False),\n    sa.Column('timestamp', sa.Date(), nullable=False),",
+        "detail": "migrations.versions.cc7d27d7ea3f_foodlog",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.cc7d27d7ea3f_foodlog",
+        "description": "migrations.versions.cc7d27d7ea3f_foodlog",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('food_log',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('user_id', sa.Integer(), nullable=False),\n    sa.Column('food_id', sa.Integer(), nullable=False),\n    sa.Column('quantity_g', sa.Float(), nullable=False),\n    sa.Column('timestamp', sa.Date(), nullable=False),\n    sa.ForeignKeyConstraint(['food_id'], ['food.id'], ),",
+        "detail": "migrations.versions.cc7d27d7ea3f_foodlog",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.db0fafeeb3d4_add_bmi",
+        "description": "migrations.versions.db0fafeeb3d4_add_bmi",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.drop_column('bmi')\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('bmi', sa.FLOAT(), nullable=True))\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.db0fafeeb3d4_add_bmi",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.db0fafeeb3d4_add_bmi",
+        "description": "migrations.versions.db0fafeeb3d4_add_bmi",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('bmi', sa.FLOAT(), nullable=True))\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.db0fafeeb3d4_add_bmi",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.db0fafeeb3d4_add_bmi",
+        "description": "migrations.versions.db0fafeeb3d4_add_bmi",
+        "peekOfCode": "revision = 'db0fafeeb3d4'\ndown_revision = 'ebc5c84709cc'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.drop_column('bmi')\n    # ### end Alembic commands ###\ndef downgrade():",
+        "detail": "migrations.versions.db0fafeeb3d4_add_bmi",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.db0fafeeb3d4_add_bmi",
+        "description": "migrations.versions.db0fafeeb3d4_add_bmi",
+        "peekOfCode": "down_revision = 'ebc5c84709cc'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.drop_column('bmi')\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###",
+        "detail": "migrations.versions.db0fafeeb3d4_add_bmi",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.db0fafeeb3d4_add_bmi",
+        "description": "migrations.versions.db0fafeeb3d4_add_bmi",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.drop_column('bmi')\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:",
+        "detail": "migrations.versions.db0fafeeb3d4_add_bmi",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.db0fafeeb3d4_add_bmi",
+        "description": "migrations.versions.db0fafeeb3d4_add_bmi",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.drop_column('bmi')\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('bmi', sa.FLOAT(), nullable=True))",
+        "detail": "migrations.versions.db0fafeeb3d4_add_bmi",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.ebc5c84709cc_add_bmi",
+        "description": "migrations.versions.ebc5c84709cc_add_bmi",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('bmi', sa.Float(), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.drop_column('bmi')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.ebc5c84709cc_add_bmi",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.ebc5c84709cc_add_bmi",
+        "description": "migrations.versions.ebc5c84709cc_add_bmi",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.drop_column('bmi')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.ebc5c84709cc_add_bmi",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.ebc5c84709cc_add_bmi",
+        "description": "migrations.versions.ebc5c84709cc_add_bmi",
+        "peekOfCode": "revision = 'ebc5c84709cc'\ndown_revision = 'b4e1a5c443bf'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('bmi', sa.Float(), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade():",
+        "detail": "migrations.versions.ebc5c84709cc_add_bmi",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.ebc5c84709cc_add_bmi",
+        "description": "migrations.versions.ebc5c84709cc_add_bmi",
+        "peekOfCode": "down_revision = 'b4e1a5c443bf'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('bmi', sa.Float(), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###",
+        "detail": "migrations.versions.ebc5c84709cc_add_bmi",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.ebc5c84709cc_add_bmi",
+        "description": "migrations.versions.ebc5c84709cc_add_bmi",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('bmi', sa.Float(), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:",
+        "detail": "migrations.versions.ebc5c84709cc_add_bmi",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.ebc5c84709cc_add_bmi",
+        "description": "migrations.versions.ebc5c84709cc_add_bmi",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('bmi', sa.Float(), nullable=True))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.drop_column('bmi')",
+        "detail": "migrations.versions.ebc5c84709cc_add_bmi",
+        "documentation": {}
+    },
+    {
+        "label": "get_engine",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except TypeError:\n        # this works with Flask-SQLAlchemy>=3\n        return current_app.extensions['migrate'].db.engine\ndef get_engine_url():\n    try:\n        return get_engine().url.render_as_string(hide_password=False).replace(",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "get_engine_url",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def get_engine_url():\n    try:\n        return get_engine().url.render_as_string(hide_password=False).replace(\n            '%', '%%')\n    except AttributeError:\n        return str(get_engine().url).replace('%', '%%')\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "get_metadata",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def get_metadata():\n    if hasattr(target_db, 'metadatas'):\n        return target_db.metadatas[None]\n    return target_db.metadata\ndef run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_online():\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    # this callback is used to prevent an auto-migration from being generated\n    # when there are no changes to the schema\n    # reference: http://alembic.zzzcomputing.com/en/latest/cookbook.html\n    def process_revision_directives(context, revision, directives):\n        if getattr(config.cmd_opts, 'autogenerate', False):",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nfileConfig(config.config_file_name)\nlogger = logging.getLogger('alembic.env')\ndef get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except TypeError:",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "logger = logging.getLogger('alembic.env')\ndef get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except TypeError:\n        # this works with Flask-SQLAlchemy>=3\n        return current_app.extensions['migrate'].db.engine\ndef get_engine_url():\n    try:",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_db",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "target_db = current_app.extensions['migrate'].db\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef get_metadata():\n    if hasattr(target_db, 'metadatas'):\n        return target_db.metadatas[None]\n    return target_db.metadata\ndef run_migrations_offline():",
+        "detail": "migrations.env",
+        "documentation": {}
+    }
+]
