@@ -1,7 +1,7 @@
 from flask import Blueprint, jsonify, abort, request
 from ..models import Food, Micro
 from ..extensions import db
-from ..functions import register_user
+# from ..functions import register_user
 
 api = Blueprint('api', __name__, url_prefix='/api')
 
@@ -13,6 +13,7 @@ api = Blueprint('api', __name__, url_prefix='/api')
 def get_all_food():
     '''
     returns: all food items from the database and its nutrient 
+    micros are per 100 grams of food item
     content
     parameters: None
     format: json
@@ -24,7 +25,7 @@ def get_all_food():
 @api.route('/food/<int:id>', methods=['GET'])
 def get_food(id):
     '''
-    Returns a single item of food based on id number
+    Returns a single item of food based on id number. 
     Parameters: food_id
     Format: JSON
     '''
@@ -60,15 +61,15 @@ def get_micro(id):
     POST
 '''
 
-@api.route('/auth/register/', methods=['POST'])
-def register_user():
-    '''
-    Registers a new user
-    Parameters: email, password
-    Format: form data
-    '''
-    user = register_user()
+# @api.route('/auth/register/', methods=['POST'])
+# def register_user():
+#     '''
+#     Registers a new user
+#     Parameters: email, password
+#     Format: form data
+#     '''
+#     user = register_user()
 
-    db.session.add(user)
-    db.session.commit()
-    return jsonify(user.to_dict())
+#     db.session.add(user)
+#     db.session.commit()
+#     return jsonify(user.to_dict())

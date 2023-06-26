@@ -1,5 +1,21 @@
 [
     {
+        "label": "hybrid_property",
+        "importPath": "sqlalchemy.ext.hybrid",
+        "description": "sqlalchemy.ext.hybrid",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.hybrid",
+        "documentation": {}
+    },
+    {
+        "label": "hybrid_property",
+        "importPath": "sqlalchemy.ext.hybrid",
+        "description": "sqlalchemy.ext.hybrid",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.hybrid",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "kind": 6,
         "isExtraImport": true,
@@ -49,6 +65,14 @@
         "documentation": {}
     },
     {
+        "label": "login_required",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
         "label": "current_user",
         "importPath": "flask_login",
         "description": "flask_login",
@@ -78,14 +102,6 @@
         "description": "flask_login",
         "isExtraImport": true,
         "detail": "flask_login",
-        "documentation": {}
-    },
-    {
-        "label": "hybrid_property",
-        "importPath": "sqlalchemy.ext.hybrid",
-        "description": "sqlalchemy.ext.hybrid",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.ext.hybrid",
         "documentation": {}
     },
     {
@@ -265,6 +281,15 @@
         "documentation": {}
     },
     {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
         "label": "SQLAlchemy",
         "importPath": "flask_sqlalchemy",
         "description": "flask_sqlalchemy",
@@ -295,15 +320,6 @@
         "importPath": "csv",
         "description": "csv",
         "detail": "csv",
-        "documentation": {}
-    },
-    {
-        "label": "re",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
         "documentation": {}
     },
     {
@@ -442,7 +458,7 @@
         "kind": 6,
         "importPath": "core.models.food_log",
         "description": "core.models.food_log",
-        "peekOfCode": "class FoodLog(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)\n    food_id = db.Column(db.Integer, db.ForeignKey('food.id'), nullable=False)\n    quantity_g = db.Column(db.Float, nullable=False)\n    timestamp = db.Column(db.Date, nullable=False, default=datetime.utcnow)\n    food_item = db.relationship(Food)\n    def to_dict(self):\n        return {\n            'id': self.id,",
+        "peekOfCode": "class FoodLog(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)\n    food_id = db.Column(db.Integer, db.ForeignKey('food.id'), nullable=False)\n    quantity_g = db.Column(db.Float, nullable=False)\n    timestamp = db.Column(db.Date, nullable=False, default=datetime.now)\n    food_item = db.relationship(Food)\n    @hybrid_property\n    def format_date(self):\n        # date = datetime(self.timestamp)",
         "detail": "core.models.food_log",
         "documentation": {}
     },
@@ -469,7 +485,7 @@
         "kind": 2,
         "importPath": "core.routes.api",
         "description": "core.routes.api",
-        "peekOfCode": "def get_all_food():\n    '''\n    returns: all food items from the database and its nutrient \n    content\n    parameters: None\n    format: json\n    '''\n    all_data = Food.query.all()\n    return jsonify([data.to_dict() for data in all_data])\n@api.route('/food/<int:id>', methods=['GET'])",
+        "peekOfCode": "def get_all_food():\n    '''\n    returns: all food items from the database and its nutrient \n    micros are per 100 grams of food item\n    content\n    parameters: None\n    format: json\n    '''\n    all_data = Food.query.all()\n    return jsonify([data.to_dict() for data in all_data])",
         "detail": "core.routes.api",
         "documentation": {}
     },
@@ -478,7 +494,7 @@
         "kind": 2,
         "importPath": "core.routes.api",
         "description": "core.routes.api",
-        "peekOfCode": "def get_food(id):\n    '''\n    Returns a single item of food based on id number\n    Parameters: food_id\n    Format: JSON\n    '''\n    item = Food.query.get(id)\n    if not item:\n        abort(404)\n    return jsonify(item.to_dict())",
+        "peekOfCode": "def get_food(id):\n    '''\n    Returns a single item of food based on id number. \n    Parameters: food_id\n    Format: JSON\n    '''\n    item = Food.query.get(id)\n    if not item:\n        abort(404)\n    return jsonify(item.to_dict())",
         "detail": "core.routes.api",
         "documentation": {}
     },
@@ -501,20 +517,11 @@
         "documentation": {}
     },
     {
-        "label": "register_user",
-        "kind": 2,
-        "importPath": "core.routes.api",
-        "description": "core.routes.api",
-        "peekOfCode": "def register_user():\n    '''\n    Registers a new user\n    Parameters: email, password\n    Format: form data\n    '''\n    user = register_user()\n    db.session.add(user)\n    db.session.commit()\n    return jsonify(user.to_dict())",
-        "detail": "core.routes.api",
-        "documentation": {}
-    },
-    {
         "label": "api",
         "kind": 5,
         "importPath": "core.routes.api",
         "description": "core.routes.api",
-        "peekOfCode": "api = Blueprint('api', __name__, url_prefix='/api')\n'''\n    GET\n'''\n@api.route('/food/', methods=['GET'])\ndef get_all_food():\n    '''\n    returns: all food items from the database and its nutrient \n    content\n    parameters: None",
+        "peekOfCode": "api = Blueprint('api', __name__, url_prefix='/api')\n'''\n    GET\n'''\n@api.route('/food/', methods=['GET'])\ndef get_all_food():\n    '''\n    returns: all food items from the database and its nutrient \n    micros are per 100 grams of food item\n    content",
         "detail": "core.routes.api",
         "documentation": {}
     },
@@ -523,7 +530,7 @@
         "kind": 2,
         "importPath": "core.routes.auth",
         "description": "core.routes.auth",
-        "peekOfCode": "def register():\n    if request.method == 'POST':\n        user=register_user()\n        db.session.add(user)\n        db.session.commit()\n        return redirect(url_for('auth.create_profile'))\n    return \"register\"\n@auth.route('/create-profile/', methods=['GET', 'POST'])\ndef create_profile():\n    if request.method == 'POST':",
+        "peekOfCode": "def register():\n    # TODO:\n    # ADD EMAIL CONFIRMATION\n    if request.method == 'POST':\n        email = request.form.get('email').lower()\n        password = request.form.get('password')\n        password_confirmation = request.form.get('password_confirmation')\n        is_validated = False\n        email_exists = bool(User.query.filter_by(email=email).first())\n        password_valid = validate_password(password=password,",
         "detail": "core.routes.auth",
         "documentation": {}
     },
@@ -532,7 +539,7 @@
         "kind": 2,
         "importPath": "core.routes.auth",
         "description": "core.routes.auth",
-        "peekOfCode": "def create_profile():\n    if request.method == 'POST':\n        name = request.form.get('name')\n        height_cm = request.form.get('height_cm')\n        weight_kg = request.form.get('weight_kg')\n        date_of_birth = request.form.get('date_of_birth')\n        gender = request.form.get('gender')\n        user = current_user\n        user.name = name\n        user.height_cm = height_cm",
+        "peekOfCode": "def create_profile():\n    ''''\n    Function: add more info to a new user's profile, \n    commits to db\n    form inputs: ename, height, weight, DoB, gender\n    '''\n    if request.method == 'POST':\n        name = request.form.get('name')\n        height_cm = request.form.get('height_cm')\n        weight_kg = request.form.get('weight_kg')",
         "detail": "core.routes.auth",
         "documentation": {}
     },
@@ -550,7 +557,7 @@
         "kind": 2,
         "importPath": "core.routes.auth",
         "description": "core.routes.auth",
-        "peekOfCode": "def logout():\n    logout_user()\n    flash(\"You have been logged out.\")\n    return \"Logged Out\"\n@auth.route('/profile/<user_id>', methods=['GET'])\ndef profile(user_id):\n    context = {\n        'title': f\"{current_user.name}'s Profile Page\",\n        'user': current_user,\n    }",
+        "peekOfCode": "def logout():\n    logout_user()\n    flash(\"You have been logged out.\")\n    return \"Logged Out\"\n@auth.route('/profile/', methods=['GET'])\n@login_required\ndef profile():\n    context = {\n        'title': f\"{current_user.name}'s Profile Page\",\n        'user': current_user,",
         "detail": "core.routes.auth",
         "documentation": {}
     },
@@ -559,7 +566,7 @@
         "kind": 2,
         "importPath": "core.routes.auth",
         "description": "core.routes.auth",
-        "peekOfCode": "def profile(user_id):\n    context = {\n        'title': f\"{current_user.name}'s Profile Page\",\n        'user': current_user,\n    }\n    return f'Hello, {current_user.name}'\n@auth.route('/change-password/', methods=['GET', 'POST'])\ndef change_password():\n    if request.method == 'POST':\n        old_password = request.form.get('old_password')",
+        "peekOfCode": "def profile():\n    context = {\n        'title': f\"{current_user.name}'s Profile Page\",\n        'user': current_user,\n    }\n    return f'Hello, {current_user.name}'\n@auth.route('/change-password/', methods=['GET', 'PUT'])\n@login_required\ndef change_password():\n    if request.method == 'PUT':",
         "detail": "core.routes.auth",
         "documentation": {}
     },
@@ -568,7 +575,7 @@
         "kind": 2,
         "importPath": "core.routes.auth",
         "description": "core.routes.auth",
-        "peekOfCode": "def change_password():\n    if request.method == 'POST':\n        old_password = request.form.get('old_password')\n        new_password = request.form.get('new_password')\n        confirm_password = request.form.get('confirm_password')\n        user = current_user\n        if check_password_hash(user.password_hash, old_password):\n            if new_password == confirm_password:\n                user.password_hash = generate_password_hash(new_password)\n                db.session.commit()",
+        "peekOfCode": "def change_password():\n    if request.method == 'PUT':\n        old_password = request.form.get('old_password')\n        new_password = request.form.get('new_password')\n        password_confirmation = request.form.get('password_confirmation')\n        user_password = current_user.password_hash\n        if check_password_hash(user_password, old_password):\n            if old_password == password_confirmation:\n                current_user.password_hash = generate_password_hash(new_password)\n                db.session.commit()",
         "detail": "core.routes.auth",
         "documentation": {}
     },
@@ -577,7 +584,7 @@
         "kind": 5,
         "importPath": "core.routes.auth",
         "description": "core.routes.auth",
-        "peekOfCode": "auth = Blueprint('auth', __name__, url_prefix='/auth')\n@auth.route('/register/', methods=['GET', 'POST'])\ndef register():\n    if request.method == 'POST':\n        user=register_user()\n        db.session.add(user)\n        db.session.commit()\n        return redirect(url_for('auth.create_profile'))\n    return \"register\"\n@auth.route('/create-profile/', methods=['GET', 'POST'])",
+        "peekOfCode": "auth = Blueprint('auth', __name__, url_prefix='/auth')\n@auth.route('/register/', methods=['GET', 'POST'])\ndef register():\n    # TODO:\n    # ADD EMAIL CONFIRMATION\n    if request.method == 'POST':\n        email = request.form.get('email').lower()\n        password = request.form.get('password')\n        password_confirmation = request.form.get('password_confirmation')\n        is_validated = False",
         "detail": "core.routes.auth",
         "documentation": {}
     },
@@ -604,7 +611,16 @@
         "kind": 2,
         "importPath": "core.routes.main",
         "description": "core.routes.main",
-        "peekOfCode": "def add_log_post(food_id):\n    '''\n    method: POST\n    description: adds a food log to the database\n    parameters: food_id linked from the previous GET route\n    '''\n    user_id = current_user.id\n    food_id = food_id\n    quantity_g = request.args.get('quantity_g')\n    new_log = FoodLog(user_id=user_id, food_id=food_id, quantity_g=quantity_g)",
+        "peekOfCode": "def add_log_post(food_id):\n    '''\n    method: POST\n    description: adds a food log to the database\n    parameters: food_id linked from the previous GET route\n    '''\n    user_id = current_user.id\n    food_id = food_id\n    quantity_g = int(request.args.get('quantity_g'))\n    new_log = FoodLog(user_id=user_id, food_id=food_id, quantity_g=quantity_g)",
+        "detail": "core.routes.main",
+        "documentation": {}
+    },
+    {
+        "label": "delete_log",
+        "kind": 2,
+        "importPath": "core.routes.main",
+        "description": "core.routes.main",
+        "peekOfCode": "def delete_log():\n    '''\n    method: DELETE\n    description: deletes a food log from the database\n    '''\n    food_id = int(request.args.get('food_id'))\n    food_log = FoodLog.query.filter_by(id=food_id).first()\n    db.session.delete(food_log)\n    db.session.commit()\n    return f'Log Deleted'",
         "detail": "core.routes.main",
         "documentation": {}
     },
@@ -613,7 +629,7 @@
         "kind": 2,
         "importPath": "core.routes.main",
         "description": "core.routes.main",
-        "peekOfCode": "def get_logs():\n    user_id = current_user.id\n    logs = FoodLog.query.filter(FoodLog.user_id == user_id).all()\n    return jsonify([log.to_dict() for log in logs])\n@main.route('/logs/<int:user_id>/today/')\n@login_required\ndef get_logs_today(user_id):\n    user_id = current_user.id\n    year, month, day = get_date()\n    print(year, month, day)",
+        "peekOfCode": "def get_logs():\n    user_id = current_user.id\n    logs = FoodLog.query.filter(FoodLog.user_id == user_id).all()\n    return jsonify([log.to_dict() for log in logs])\n@main.route('/logs/today/', methods=['GET'])\n@login_required\ndef get_logs_today():\n    user_id = current_user.id\n    year, month, day = get_date()\n    print(FoodLog.query.get(1).format_date)",
         "detail": "core.routes.main",
         "documentation": {}
     },
@@ -622,16 +638,7 @@
         "kind": 2,
         "importPath": "core.routes.main",
         "description": "core.routes.main",
-        "peekOfCode": "def get_logs_today(user_id):\n    user_id = current_user.id\n    year, month, day = get_date()\n    print(year, month, day)\n    logs = FoodLog.query.filter(\n        user_id == user_id and\\\n              FoodLog.timestamp.like(f'{year}-{month}-{day}')\n    ).all()\n    return jsonify([log.to_dict() for log in logs])\n@main.route('/logs/<int:user_id>/')",
-        "detail": "core.routes.main",
-        "documentation": {}
-    },
-    {
-        "label": "get_past_logs",
-        "kind": 2,
-        "importPath": "core.routes.main",
-        "description": "core.routes.main",
-        "peekOfCode": "def get_past_logs(user_id):\n    logs = get_logs_by_date()\n    return jsonify([log.to_dict() for log in logs])",
+        "peekOfCode": "def get_logs_today():\n    user_id = current_user.id\n    year, month, day = get_date()\n    print(FoodLog.query.get(1).format_date)\n    print(year, month, day)\n    logs = FoodLog.query.filter(\n        user_id == user_id and\\\n              FoodLog.format_date == f'{year}-{month}-{day}' \n    ).all()\n    return jsonify([log.to_dict() for log in logs])",
         "detail": "core.routes.main",
         "documentation": {}
     },
@@ -690,11 +697,11 @@
         "documentation": {}
     },
     {
-        "label": "register_user",
+        "label": "validate_password",
         "kind": 2,
         "importPath": "core.functions",
         "description": "core.functions",
-        "peekOfCode": "def register_user():\n    email = request.form.get('email')\n    password = request.form.get('password')\n    password_check = request.form.get('password_check')\n    email_exists = bool(User.query.filter_by(email=email)\n                        .first())\n    print(email_exists)\n    if password != password_check:\n        flash(\"Passwords do not match\")\n        return redirect(url_for('auth.register'))",
+        "peekOfCode": "def validate_password(password, password_confirmation):\n    if re.search('[A-Z]', password) is None:\n        is_validated = False\n        print('Password must contain at least one uppercase', 'error')\n    elif re.search('[0-9]', password) is None:\n        is_validated = False\n        print('Password must include at least one numbber', 'error')\n    elif re.search('[\"£$@#~!?\"]', password) is None:\n        is_validated = False\n        print(",
         "detail": "core.functions",
         "documentation": {}
     },

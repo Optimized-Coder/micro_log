@@ -85,32 +85,24 @@ def add_food_from_csv(file_path):
     else:
         print('Food table is not empty. Nothing to add.')
 
-def register_user():
-    email = request.form.get('email')
-    password = request.form.get('password')
-    password_check = request.form.get('password_check')
-
-    email_exists = bool(User.query.filter_by(email=email)
-                        .first())
-
-    print(email_exists)
-
-    if password != password_check:
-        flash("Passwords do not match")
-        return redirect(url_for('auth.register'))
-    elif len(password) < 6 or len(password) > 20:
-        flash("Password must be between six and twenty characters long.")
-        return redirect(url_for('auth.register'))
-    elif email_exists:
-        flash("Email already in use", "error")
-        return redirect(url_for('auth.register'))
+def validate_password(password, password_confirmation):
+    if re.search('[A-Z]', password) is None:
+        is_validated = False
+        print('Password must contain at least one uppercase', 'error')
+    elif re.search('[0-9]', password) is None:
+        is_validated = False
+        print('Password must include at least one numbber', 'error')
+    elif re.search('["£$@#~!?"]', password) is None:
+        is_validated = False
+        print(
+            'Password must include one of the special characters: £ $ @ # ~ ! ?', 'error')
+    elif password != password_confirmation:
+        is_validated = False
+        print('passwords must match', 'error')
     else:
-        user = User(
-            email=email,
-            password_hash=generate_password_hash(password)
-        )
+        is_validated = True
 
-        return user
+    return is_validated
     
 def get_date():
     today = datetime.datetime.now()

@@ -3,7 +3,7 @@ from flask_login import current_user, login_required
 
 from ..models import Food, FoodLog
 from ..extensions import db
-from ..functions import get_date, get_logs_by_date
+from ..functions import get_date
 
 main = Blueprint('main', __name__)
 
@@ -27,7 +27,7 @@ def add_log():
     food_results = Food.query.filter(Food.name.like(f'%{food_query}%')).all()
     quantity = request.form.get('quantity')
 
-    return [f'href="https://DOMAIN/add-log/{food.id}/{quantity}"' for food in food_results]
+    return [f'href="http://DOMAIN/add-log/{food.id}/{quantity}"' for food in food_results]
 
 @main.route('/add-log/<int:food_id>/', methods=['POST'])
 @login_required
@@ -39,8 +39,7 @@ def add_log_post(food_id):
     '''
     user_id = current_user.id
     food_id = food_id
-    quantity_g = request.args.get('quantity_g')
-
+    quantity_g = int(request.args.get('quantity_g'))
     new_log = FoodLog(user_id=user_id, food_id=food_id, quantity_g=quantity_g)
 
     db.session.add(new_log)
@@ -48,6 +47,19 @@ def add_log_post(food_id):
 
     return f'Log Added: {new_log.food_item.name}, {new_log.quantity_g}, {new_log.timestamp}'
 
+@main.route('/delete-log/', methods=['DELETE'])
+@login_required
+def delete_log():
+    '''
+    method: DELETE
+    description: deletes a food log from the database
+    '''
+    food_id = int(request.args.get('food_id'))
+    food_log = FoodLog.query.filter_by(id=food_id).first()
+    db.session.delete(food_log)
+    db.session.commit()
+
+    return f'Log Deleted'
 
 @main.route('/logs/', methods=['GET'])
 @login_required
@@ -57,23 +69,17 @@ def get_logs():
     
     return jsonify([log.to_dict() for log in logs])
 
-@main.route('/logs/<int:user_id>/today/')
+@main.route('/logs/today/', methods=['GET'])
 @login_required
-def get_logs_today(user_id):
+def get_logs_today():
     user_id = current_user.id
     year, month, day = get_date()
+    print(FoodLog.query.get(1).format_date)
     print(year, month, day)
     logs = FoodLog.query.filter(
         user_id == user_id and\
-              FoodLog.timestamp.like(f'{year}-{month}-{day}')
+              FoodLog.format_date == f'{year}-{month}-{day}' 
     ).all()
 
-
-    return jsonify([log.to_dict() for log in logs])
-
-@main.route('/logs/<int:user_id>/')
-@login_required
-def get_past_logs(user_id):
-    logs = get_logs_by_date()
 
     return jsonify([log.to_dict() for log in logs])
